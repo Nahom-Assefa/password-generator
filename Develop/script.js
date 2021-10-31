@@ -39,7 +39,7 @@ function generatePassword() {
     if (!entry) {
       alert("You need to input a value");
       generatePassword();
-    } else if (entry >= 8 && entry <= 128) {
+    } else if (entry <= 8 || entry >= 128) {
       alert(
         `The length must be a number between 8 and 128 characters! Please try again.`
       );
@@ -93,13 +93,22 @@ function generatePassword() {
     } else if (confirmUpper) {
       choices = upper;
     }
+
+
+//Array we push randomized choices too
+ const makePassword = [];
+ 
+ //For loop
+ for (var i = 0; i < entry; i++) {
+   var pickChoices = choices[Math.floor(Math.random() * choices.length)];
+   makePassword.push(pickChoices);
+}
+ console.log(makePassword);
+
+ var jay = makePassword.join('');
+ return jay;
 }
    
-
-
-
-
-
 
 
 // Write password to the #password input
