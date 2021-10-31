@@ -12,7 +12,7 @@ In terms of filtering out choices customer did not want I went with if/else stat
 There were significant challenges on this project that were as much theoretical as practical. What I mean is the javascript code given to us was minimal and in terms of architecture there were a myriad of ways one could go about it. Further, the project utilized or necessitated javascript concepts I was not entirely familiar with. For example, some of the students in office hours used the for each method, others splicing, and myself String.fromCharCode which I found a helpgul video guide my thinking on that aspect. I think it was a project that stretched me and made me realize I presume I will have to do more out of the box thinking to make it through this course.
 
 ### Screenshot
-![](Develop/screenshot.png)
+![](Develop/Screenshot.png)
 
 #### Link
 https://nahom-assefa.github.io/password-generator/
